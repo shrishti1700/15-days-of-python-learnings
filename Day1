@@ -2,30 +2,101 @@
 #Topic - Python syntax, variables, data types, and basic operations
 #To do- Practise 10 codes for above topic
 
-#syntax - structure or rules of a programming language
+#1.syntax - structure or rules of a programming language
 print("Day 1, Let's do great and practise consistently!")
 
-#Variables - to store data in a program.It can be in form numbers, strings, or other objects
+#2.Variables - to store data in a program.It can be in form numbers, strings, or other objects
 x = 17
 y = "Birthdate"
 print(x)
 print(y)
 
-#more string manupulations
+#3.Data Types - the kind of values that variables can hold.
+x = 5      # integer
+y = 3.14   # float
+z = "coding"  # string
+print(type(x))
+print(type(y))
+print(type(z))
 
+#4.Basic Arithmetic Operations - similarly to arithmetic in mathematics
+a = 10
+b = 3
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Modulus:", a % b)
+print("Exponentiation:", a ** b)
+
+#5.String Manipulation - strings can be manipulated using various methods and operators
+str1 = "Do"
+str2 = "  Coding"
+print(str1 + " daily " + str2)
+print(str1 * 3)
+print(str1.upper())
+print(str1.lower())
+print(str2.lstrip())
+print(str1.replace("o","one"))
+
+##More string manupulations
 #String Methods: 
 Split: Splits the string into a list of substrings based on a specified delimiter. 
 Join: Joins elements of a list into a single string, with a specified separator between elements. 
 Find: Returns the lowest index of the substring if it is found in the string. Returns -1 if not found. 
 Count: Returns the number of non-overlapping occurrences of a substring in the string.
-
 #String Operators: 
 Concatenation: Joins two or more strings end-to-end.
 Repetition: Repeats the string a specified number of times. 
 Indexing: Accesses a character at a specified index in the string. 
 Slicing: Extracts a substring from the string using a range of indices.
-
 #String Formatting:
 Using f-strings (Python 3.6+): Embeds expressions inside string literals, 
 using curly braces {}. Using format method: Inserts values into placeholders defined by curly braces {} in the string. 
 Using % operator: Performs string formatting by embedding values in a string using % followed by a format specifier.
+
+#6.List -  ordered collections of items, which can be of different types. They are mutable, meaning their elements can be changed after creation.
+my_list = [1, 2, 3, 4, 5]
+print(my_list)
+print("Length:", len(my_list))
+print("Indexing:", my_list[2])
+print("Slicing:", my_list[1:4])
+
+#7.Tuple - similar to lists but are immutable, meaning their elements cannot be changed after creation. They are often used to store collections of heterogeneous data. 
+my_tuple = (1, 2, 3, 4, 5)
+print(my_tuple)
+print("Length:", len(my_tuple))
+print("Indexing:", my_tuple[2])
+print("Slicing:", my_tuple[1:4])
+
+#8.Dictionaries - collections of key-value pairs, where each key is associated with a value. 
+#They are unordered and mutable. Dictionaries are useful for mapping one piece of data (the key) to another (the value)
+#operations include accessing values by key, adding new key-value pairs, and iterating over keys or values.
+my_dict = {"name": "Shrishti", "age": 25, "city": "Mumbai"}
+print(my_dict)
+print("Keys:", my_dict.keys())
+print("Values:", my_dict.values())
+print("Accessing value by key:", my_dict["name"])
+
+#9. Boolean- two truth values: True and False. Boolean operations such as and, or, and not are used to combine or negate boolean values. 
+#Boolean variables are commonly used in conditional statements and loops to control the flow of a program.
+x = True
+y = False
+print("x and y:", x and y)
+print("x or y:", x or y)
+print("not x:", not x)
+
+#The and operator returns True if both operands are true. If either operand is false, it returns False.
+#The or operator returns True if at least one of the operands is true. If both operands are false, it returns False.
+#The not operator negates the boolean value of its operand. If the operand is True, it returns False, and vice versa.
+
+#10.Comparison- to compare values and return a boolean result 
+a = 5
+b = 3
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a == b:", a == b)
+print("a != b:", a != b)
+
+#done for today!
