@@ -1,0 +1,31 @@
+#Day-1 
+#Topic - Python syntax, variables, data types, and basic operations
+#To do- Practise 10 codes for above topic
+
+#syntax - structure or rules of a programming language
+print("Day 1, Let's do great and practise consistently!")
+
+#Variables - to store data in a program.It can be in form numbers, strings, or other objects
+x = 17
+y = "Birthdate"
+print(x)
+print(y)
+
+#more string manupulations
+
+#String Methods: 
+Split: Splits the string into a list of substrings based on a specified delimiter. 
+Join: Joins elements of a list into a single string, with a specified separator between elements. 
+Find: Returns the lowest index of the substring if it is found in the string. Returns -1 if not found. 
+Count: Returns the number of non-overlapping occurrences of a substring in the string.
+
+#String Operators: 
+Concatenation: Joins two or more strings end-to-end.
+Repetition: Repeats the string a specified number of times. 
+Indexing: Accesses a character at a specified index in the string. 
+Slicing: Extracts a substring from the string using a range of indices.
+
+#String Formatting:
+Using f-strings (Python 3.6+): Embeds expressions inside string literals, 
+using curly braces {}. Using format method: Inserts values into placeholders defined by curly braces {} in the string. 
+Using % operator: Performs string formatting by embedding values in a string using % followed by a format specifier.
